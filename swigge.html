@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="swinng.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="container  find ">
+    <div class="mt-5"><img src="download.png" alt="" height="78px" width="180px">
+    </div>
+    <div class="text-end ">
+      <button id="login" class="login"> <b>Login</b></button>
+      <button id="onn" class="sign"><b> Sign up</b></button>
+    </div>
+
+    <div class=" mt-5 ">
+      <h1>Hungry?</h1>
+      <h3 class="text-muted">Order food from favourite restaurants near you. </h3>
+    </div>
+
+
+    <div class="input-group placeholder placeholdeone mt-5">
+      <input type="text" class="form-control" placeholder="Enter your delivery location"
+        aria-label="Recipient's username with two button addons">
+      <button class="btn btn-outline-" type="button"><i class="bi bi-crosshair"></i><span>Location Me</span></button>
+      <button class="btn btn-outline placeholder" type="button" style="background-color: #fc8019"><a style="text-decoration: none; color: white;"
+          href="home/home.html">FIND FOOD
+        </a>
+      </button>
+    </div>
+    <div class="">
+      <h6 class="text-muted mt-5 ">POPULAR CITIES IN INDIA </h6>
+    </div>
+
+    <ul class="">
+      <li><a href="">Ahmedabad</a></li>
+      <li class="text-muted"> <a href="">Bangalore</a></li>
+      <li><a href="">Chennai</a></li>
+      <li><a href="">Delhi</a></li>
+      <li><a href="">Gurgaon</a></li>
+      <li><a href="">Hyderabad</a></li>
+      <li><a href="">kolkata</a></li> <br>
+      <li><a href="">mumbai</a></li>
+      <li><a href="">& more</a></li>
+    </ul>
+
+  </div>
+
+
+  <!-- img -->
+
+  <div class="img ">
+    <div class="food_image">
+      <img src="food.jpeg" alt="" height="600px">
+    </div>
+
+    <div class="sign_up">
+      <form action="action_page.php" id="head">
+        <div class="container">
+          <div class="imgcontainer">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Image-login_btpq7r" alt="Avatar" class="avatar" height="100px" width="100px">
+          </div>
+        <button class="btn btn-outline X " id="off"><span><B>X</B></span></button>  
+          <h1>Register</h1> 
+          <p style="color: #fc8019;">Please fill in this form to create an account.</p>
+          <hr>
+
+          <label for="number"><b>Phone number</b></label>
+          <input type="text" placeholder="Enter number" name="number" id="number" required> <br> <br>
+
+          <label for="Name"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" name="Name" id="Name" required> <br> <br>
+
+          <label for="email"><b>Email</b></label>
+          <input type="email" placeholder="Enter Email" name="email" id="email" required> <br> <br>
+
+          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+          <button type="submit" class="registerbtn w-100" style="background-color: #fc8019;">Register</button>
+        </div>
+
+        <div class="container signin">
+          <p>Already have an account? <br>
+            <a href="#">Sign in</a>.</p>
+        </div>
+      </form>
+    </div>
+
+<div class="loginer">
+    <form action="action_page.php" method="post" id="header">
+      <div class="container">
+        <div class="imgcontainer">
+          <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Image-login_btpq7r" alt="Avatar" class="avatar" height="100px" width="100px">
+        </div>
+        <button class="btn btn-outline X" id="page"><span><B>X</B></span></button>
+        <h1>Login</h1> 
+        <p style="color: #fc8019;">or create an account</p>
+        <hr>
+        <label for="uname"><b>Phone number</b></label> <br>
+        <input type="text" placeholder="Phone number" name="uname" required class="w-100"> <br>
+        <label> <br>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label> <br> 
+        <button type="submit" class="w-100 " style="background-color: #fc8019;">Login</button>
+      </div>
+    </form>
+</div>
+  </div>
+
+
+  <!-- img2 -->
+  <div class="order">
+    <img src="download12.jpeg" alt="">
+  </div>
+   
+  <!-- app -->
+  <div class=" app pocket">
+    <h1> <b>Restaurants in <br> your pocket</b></h1>
+    <h5 class="text-muted mt-3">Order from your favorite restaurants & track <br> on the go, with the all-new Swiggy
+      app.</h5>
+    <a href="https://play.google.com/store/apps/details?id=in.swiggy.android" target="blank" class="link"> <img
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp" alt=""
+        height="54" class="mt-5"> </a>
+    <a href="https://apps.apple.com/in/app/swiggy-food-order-delivery/id989540920" target="blank" class="link"> <img
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty" alt=""
+        height="54" class="mt-5 ms-3">
+    </a>
+  </div>
+
+  <div class="app float-end">
+    <img src="app12.jpeg" alt="">
+  </div>
+
+
+
+
+
+
+
+
+
+</body>
+<script>
+
+// sigh
+  document.getElementById("onn").addEventListener("click", function navbar() {
+    document.getElementById("head").classList.add("one");
+  })
+  document.getElementById("off").addEventListener("click", function navbaroff() {
+    document.getElementById("head").classList.remove("one");
+    document.getElementById("head").classList.add("two");
+  })
+
+  // login
+  document.getElementById("login").addEventListener("click", function navbar() {
+    document.getElementById("header").classList.add("one");
+  })
+  document.getElementById("page").addEventListener("click", function navbaroff() {
+    document.getElementById("header").classList.remove("one");
+    document.getElementById("header").classList.add("two");
+  })
+</script>
+
+</html>

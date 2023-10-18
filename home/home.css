@@ -1,0 +1,179 @@
+.head{
+    margin-left: 100px;
+    display: inline-block;
+
+}
+
+.header{
+    height: 10px;
+}
+.down{
+    color: #fc8019;
+     
+}
+
+.india{
+    height: 70px;
+    width: 70px;
+    transition-property:all;
+}
+
+.india:hover{
+    
+    height:80px;
+    width:80px;
+    background-color: #fc8019;
+    cursor: pointer;
+
+  
+}
+
+
+nav{
+    position:initial; 
+  }
+  ul{
+    position: absolute;
+  }
+  li{
+    list-style-type: none;
+    display: inline-block; 
+    padding: 8px;
+    margin: 10px;
+    
+  }
+  ul li a{
+    color:black ;
+    text-decoration: none; 
+    font-weight: bold;
+    
+  }
+
+  ul li a:hover{
+    color: #fc8019 !important;
+    /* background-color: #fc8019; */
+    
+  }
+  
+  .manu{
+    display: inline-block;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    border-bottom: solid red 5px;
+    color: silver;
+  }
+
+  .search{
+    font-size: 20px;
+  }
+  .read{
+    border-bottom: solid whitesmoke 5px ;
+    box-shadow: 0px 0px 5px 5px whitesmoke ;
+  }
+  sup{
+    color: #fc8019;
+  }
+  .head1{
+    height: 120px;
+  }
+
+  .food{
+    margin-left: 250px;
+    border-bottom: solid silver;
+    padding-bottom: 90px;
+    width: 70%;
+    
+  }
+  
+  .circle{
+    display: inline-block;
+    font-size: 40px;
+    border: none;
+   color: silver;
+    
+  }
+
+  h3{
+    display: inline-block;
+    margin-right: 50%;
+    
+  }
+
+  .img1{
+    height: 100%;
+    width: 90%;
+  
+  }
+
+ .top{
+  border-radius: 10px;
+  border: silver solid;
+ }
+
+ .app{
+  height: 60%;
+  width: 100%;
+  background-color: silver;
+  text-align: center;
+ }
+
+ .ind:hover{
+  color: #fc8019;
+ }
+ 
+ .ind,a{
+  color: black;
+ }
+
+
+ form{
+  transform: translate(-600px);
+  z-index: 1;
+}
+
+.one{
+  transform: translate(0px);
+  transition-property:all;
+  transition-duration:3s;
+
+}
+.two{
+  transform: translate(-600px);
+  transition-property:all;
+  transition-duration:2s;
+
+}
+
+.form1{
+  background-color: white;
+  height: 300px;
+ 
+  
+}
+
+.submit{
+    width: 400px;
+    padding: 13px;
+}
+
+input{
+  width: 400px;
+  padding: 11px;
+}
+ 
+form{
+  background-color: white;
+  height: 1000px;
+  width: 600px;
+  margin-top: -100px;
+}
+
+
+.menu,form{
+  position: absolute;
+}
+
+.container{
+  padding-left: 100px;
+  padding-top: 50px;
+}
